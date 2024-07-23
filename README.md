@@ -1,18 +1,28 @@
 # Building a website with Node.js and Express
 
-This repository contains the code for my course 'Building a Website with Node.js Node.js' on [LinkedIn Learning](https://www.linkedin.com/learning/building-a-website-with-node-js-and-express-js-3).
+Node.js:
+creating dynamic website for meetups and speakers for artists and exhibits
 
-The master branch contains the initial version to get started with, while the branches contain the state of the code at the beginning (e.g. 02_02**b**) and end (e.g. 02_02**e**) of a video.
+uses express middleware for static images
 
-## Setting up the project
+uses devDependency: ESLint and Prettier    (code formatting)
+uses devDependency: Nodemon                (for not needing to reload node instance every time changes are made)
 
-* In your terminal, create directory `building-website-nodejs-express` and **change into it**.
-* Run 
-  ```bash
-  git clone --bare git@github.com:danielkhan/building-website-nodejs-express.git .git
-  git config --bool core.bare false
-  git reset --hard
-  git branch
-  ```
-  
-Everything else will be discussed in my course.
+utilizes EJS template engine
+
+using express modularized routing in routes/index.js
+  *index.js is a single point of contact and feedback.js and speakers.js will be routed into index.js to handle the pages
+
+uses middleware cookie-session to encrypt cookies for website's purposes
+
+creates a layout based template system using ejs
+
+uses body-parser middleware for handling user input
+
+utilizes express-validator software for validating user input and showing error messages to users
+
+uses postman for handling api testing endpoints
+
+Using JQuery for XHR requests
+
+Don't forget to npm install all dependencies and also npm dev install the dev dependencies for similar formatting softwares

@@ -26,3 +26,5 @@ uses postman for handling api testing endpoints
 Using JQuery for XHR requests
 
 Don't forget to npm install all dependencies and also npm dev install the dev dependencies for similar formatting softwares
+
+This was for my completion of my Linkedin Learning learning course: Building a Website using Nodejs and Expressjs taught by Daniel Khan
